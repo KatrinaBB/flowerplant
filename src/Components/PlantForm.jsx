@@ -1,4 +1,4 @@
-import PlantCard from "./Plantcard";
+import PlantCard from "./PlantCard";
 
 export default function PlantForm({ plants, setPlants }) {
 

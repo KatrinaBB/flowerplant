@@ -7,7 +7,7 @@ export default function Header() {
         <h1>FlowerPlant</h1>
         <nav>
             <Link to="/">Home</Link>
-            <Link to="/myPlants">MyPlants</Link>
+            <Link to="/myplants">MyPlants</Link>
             <Link to="/about">About</Link>
         </nav>
     </header>
