@@ -1,0 +1,22 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #d3fff3;
+  color: #005915;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* MAIN LAYOUT */
+
+main {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}

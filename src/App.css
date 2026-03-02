@@ -1,0 +1,149 @@
+
+/* HEADER */
+.header {
+  background-color: #0b5c00;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+.header nav a {
+  margin: 0 12px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.header nav a:hover {
+  text-decoration: underline;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #0b5c00;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+/* GRID FOR PLANTS */
+
+.plant-grid {
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+
+}
+
+/* PLANT CARD */
+.plant-card {
+  background: rgb(224, 252, 255);
+  border: 1px solid #000000;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.2s ease;
+  word-wrap: break-word;
+}
+
+.plant-card:hover {
+  transform: scale(1.02);
+  border-color: #2e5e2a;
+}
+
+.plant-card h4 {
+  margin-bottom: 8px;
+  color: #2e5e2a;
+}
+
+/* FORM */
+.form {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  max-width: 100%;
+}
+
+.form input:focus {
+  border-color: #2e5e2a;
+  outline: none;
+}
+
+/* BUTTONS */
+button {
+  padding: 10px 15px;
+  background-color: #2e5e2a;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-right: 10px;
+  margin-top: 10px;
+  transition: 0.2s ease;
+}
+
+button:hover {
+  background-color: #3c7a38;
+}
+
+button:active {
+  transform: scale(0.97);
+}
+
+/* FILTER INPUT */
+input[type="text"] {
+  padding: 10px;
+  width: 250px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+}
+
+/* EDIT MODE HIGHLIGHT */
+.editing {
+  border: 2px solid #ffb703;
+  background-color: #fff7e6;
+}
+
+
+/* this is for the cards on home page */ 
+
+.plant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.plant-card {
+  background: white;
+  border: 1px solid #dcdcdc;
+  padding: 15px;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+
+.plant-card:hover {
+  transform: scale(1.02);
+  border-color: #2e5e2a;
+}
+
+.plant-card h4 {
+  margin-bottom: 8px;
+  color: #2e5e2a;
+}
+
+.shop-image {
+  width: 100%;
+  margin: 20px 0;
+  border-radius: 10px;
+  max-width: 100%;
+
+}
