@@ -18,8 +18,10 @@ export default function App() {
       </Routes>
       </main>
       <Footer />
+      {basename: "/flowerplant/"}
     </Router>
   );
 }
+
 
 
