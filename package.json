@@ -1,7 +1,7 @@
 {
   "name": "flowerplant",
   "private": true,
-  "home" : "https://KatrinaBB.github.io/flowerplant", 
+  "homepage" : "https://KatrinaBB.github.io/flowerplant", 
   "version": "0.0.0",
   "type": "module",
   "scripts": {
